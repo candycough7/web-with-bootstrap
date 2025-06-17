@@ -1,0 +1,98 @@
+header.banner{
+padding-top: 10.5rem;
+padding-bottom: 6rem;
+text-align: center;
+color: #fff;
+background-image: url("../images/img/header-bg.jpg");
+background-repeat: no-repeat;
+background-position:center;
+background-size: cover;
+height: 100vh;
+}
+header.banner .banner-subheading{
+    font-size: 3rem;
+    font-style: italic;
+    line-height: 1.5rem;
+    margin-bottom: 25px;
+    font-family: "Roboto Slab", 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+header.banner .banner-heading{
+    font-size: 3.25rem;
+    font-weight: 700;
+    line-height: 3.25rem;
+    margin-bottom: 2rem;
+    font-family: "Monstserrat", 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+header.banner .btn{
+    background-color: #FFC107;
+    border: none;
+    font-weight: 500;
+}
+@media (min-width:768px){
+    header.banner{
+        padding-top: 17rem;
+        padding-bottom: 12.5rem;
+    }
+    header.banner .banner-subheading{
+        font-size: 2.25rem;
+        font-style: italic;
+        line-height: 2.25rem;
+        margin-bottom: 2rem;
+    }
+    header.banner .banner-heading{
+        max-width: 50rem;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+.page-section{
+    padding: 6rem 0;
+}
+.page-section h2.section-heading{
+    font-size: 2.5rem;
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+.page-section h3.section-subheading{
+    font-size: 1rem;
+    font-weight: 400;
+    font-style: italic;
+    font-family: "Roboto Slab";
+    margin-bottom: 4rem;
+}
+@media(min-width:768px){
+    .page-section{
+        padding: 9rem 0;
+    }
+    #mainNav{
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+        background-color: #212529;
+    }
+    #mainNav .navbar-toggler{
+        padding: 0.75rem;
+        font-size: 0.75rem;
+        font-family: "Montserrat";
+        text-transform: uppercase;
+        font-weight: 700;
+    }
+    #mainNav.navbar-brand{
+        color: #FFC107;
+        font-family: "Montserrat";
+        font-weight: 700;
+        letter-spacing: 0.0625rem;
+        text-transform: uppercase;
+    }
+    /* #mainNav img{
+        height: 1.5rem;
+    } */
+    #mainNav .navbar-nav .nav-item .nav-link{
+        font-family: "Montserrat";
+        font-size: 0.95rem;
+        color: #fff;
+        letter-spacing: 0.0625rem;
+    }
+    #mainNav .navbar-nav .nav-item .nav-link:hover{
+        color: #FFC107;
+    }
+}
